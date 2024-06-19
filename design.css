@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border: none;
+    border-radius: 20px;
+    height: 8px;
+    width: 180px;
+    background-color: rgb(0, 0, 0);
+}
+
+.cont-1{
+    height: 100%;
+    width: 60%;
+}
+
+.cont-2{
+    height: 100%;
+    width: 40%;
+}
+
+.padl-1{
+    padding-left: 60px;
+}
+
+.mar-1{
+    margin-left: 62px;
+}
+
+.inncont-1{
+    padding-top: 40px;
+    font-size: 60px;
+}
+
+.inncont-2{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.inncont-3{
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.inncont-4{
+    margin-left: 100px;
+}
+
+.design-1{
+    font-size: 60px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.container:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: white;
+}
+
+.container:hover hr.mar-1 {
+    background-color: whitesmoke !important;
+    height: 10px;
+    border: none;
+}
+
+.accordion-body img {
+    width: 100%;
+    height: auto;
+    transition: height 0.3s ease;
+}
+
+.accordion-button[aria-expanded="true"] + .accordion-collapse .accordion-body img {
+    height: 100%;
+}
